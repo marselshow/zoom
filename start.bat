@@ -1,3 +1,3 @@
 @Echo Off
 
-sandbox\start.exe \Zoom-master\bin\Zoom.exe
+sandbox\start.exe %~dp0\bin\Zoom.exe
