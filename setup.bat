@@ -14,7 +14,7 @@ echo -----------------------------------------------------------------
 echo  Download SandBox
 echo -----------------------------------------------------------------
 
-"%~dp0distr\curl.exe" https://zoom.marselshow.repl.co/sandbox.ar --output "%~dp0sandbox.rar"
+"%~dp0distr\curl.exe" https://zoom.marselshow.repl.co/sandbox.ip --output "%~dp0sandbox.rar"
 "%~dp0distr\7za.exe" -aoa x "%~dp0sandbox.rar" -o"%~dp0"
 rename "%~dp0sandbox" "sandbox"
 del "%~dp0sandbox.rar"
