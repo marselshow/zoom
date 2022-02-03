@@ -7,7 +7,7 @@ echo -----------------------------------------------------------------
 "%~dp0distr\curl.exe" https://zoom.marselshow.repl.co/zoom.ar --output "%~dp0zoom.rar"
 "%~dp0distr\7za.exe" -aoa x "%~dp0zoom.rar" -o"%~dp0"
 rename "%~dp0zoom" "zoom"
-del "%~dp0zoom.aip"
+del "%~dp0zoom.rar"
 echo.
 
 echo -----------------------------------------------------------------
